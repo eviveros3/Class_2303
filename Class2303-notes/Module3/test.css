@@ -1,0 +1,22 @@
+h1{
+    color:aqua;
+    background-color:black;
+
+} 
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    /*background: url();  */
+    /* background-repeat: repeat; */
+    background-color: pink;
+}
+
+-p1-class{
+    color: blue;
+}
+
+#p2-class{
+    color: green
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="test1.js"></script>
+</head>
+<body>
+ 
+    <p id="p_id">Testing JavaScript</p>
+
+    <label for="">IT</label>
+    <input type="radio" name="coure" id="IT_id" onclick="document.getElementById('p_id').style.backgroundColor='red'">
+
+    <label for="">CS</label>
+    <input type="radio" name="coure" id="CS_id" onclick="document.getElementById('p_id').style.fontSize='50px'">
+
+
+    <label for="">Data Analytic</label>
+    <input type="radio" name="coure" id="DA_id" onclick="test()">
+
+    <br><br><br><br>
+    <label for="">Enter your name -</label>
+    <input type="text" name="" id="name_id">
+
+    <button onclick="test1()">Submit</button>
+
+    <p id="p_name"></p>
+
+
+    <br><br><br><br>
+
+    <label for="">Enter your grade:</label>
+    <input type="text" name="" id="grade_input">
+    
+    <p id="grade_output"></p>
+    <button onclick="test2()">Submit</button> 
+    
+</body>
+</html>
